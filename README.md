@@ -46,3 +46,38 @@ We will use count of users, probabilities, conditional probabilities to evaluate
 - For categorical variable(s): Boxplot
 - For correlation: Heatmaps, Pairplots
 - Performed Cross-tabulation of Product against all other features, based on observation created the profile.
+
+### **Customer Profile:**
+
+* **Product - KP281:**
+
+  * **Age:** Popular among young between **22 - 33 years** range.
+  * **Gender:** Mostly preferred by **Females**  (**52% of all females** brought this Product whereas 38% of all males brought this product)
+  * **Marital Status:** **Both** alike
+  * **Fitness Level:** People with poor and average fitness (**fitness<=3**) prefer more but overall have a good control across all fitness level.
+  * **Usage Level:** Average Number of **Usage <= 4** per week.
+  * **Income Range:** Low, Medium and High income people (**30000<=income<= 58000**)
+  * **Education:** 14-16 years mostly
+  * **Miles:** popular among people who prefer to run less than 80 miles per week(**running < 80 miles**).
+
+* **Product - KP481:**
+
+  * **Age:** Popular among young between **24 - 33 years** range
+  * **Gender:** Almost similar popularity distribution in **both** genders.
+  * **Marital Status:** **both** alike
+  * **Fitness Level:**  People with poor and average fitness (**fitness<=3**) prefer using this.
+  * **Usage Level:** Average Number of **Usage <= 3** per week.
+  * **Income Range:** Low, Medium and High income people (**30000<=income<= 58000**)
+  * **Education:** 14-16 years mostly
+  * **Miles:** popular among people who prefer to run less than 120 miles per week(**running < 120 miles**).
+
+* **Product - KP781:**
+
+  * **Age:** Popular among young between **25 - 30 years** range
+  * **Gender:** Males prefer more than Females
+  * **Marital Status:** **both** alike
+  * **Fitness Level:** People with High fitness level like **fitness==5**
+  * **Usage Level:** Average Number of **Usage >= 4** per week.
+  * **Income Range:** High and Very High income people (**income>60000**)
+  * **Education:** 16-18 years mostly
+  * **Miles:** popular among people who prefer to run more than 120 miles per week(**running > 120 miles**).
