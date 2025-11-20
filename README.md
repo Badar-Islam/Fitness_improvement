@@ -12,12 +12,14 @@ A fitness equipment manufacturer, wants to analyze customer characteristics to u
 
 - The KP781 treadmill is having advanced features that sell for $2,500
 
+---
+
 ## 🎯 Objective
 - To analyze demographic and behavioral attributes of treadmill customers.
 - To identify the characteristics of customers choosing KP281, KP481, and KP781.
 - To extract actionable insights to support Aerofit’s market segmentation strategy.
 - To build clear customer profiles for each treadmill model.
-
+---
 ## Column Profiling:
 
 |Feature |	Description|
@@ -32,6 +34,7 @@ A fitness equipment manufacturer, wants to analyze customer characteristics to u
 |Fitness |	Self-rated fitness on a 1-to-5 scale, where 1 is the poor shape and 5 is the excellent shape|
 |Miles |	The average number of miles the buyer expects to walk/run each week|
 
+---
 ## 🛠️ Tasks Performed
 - Imported and inspected the dataset for structure, schema, and content.
 - Checked for missing values, duplicate entries, and data consistency.
@@ -43,7 +46,7 @@ A fitness equipment manufacturer, wants to analyze customer characteristics to u
 - Developed detailed customer profiles for each treadmill model.
 - Interpreted analysis results into actionable insights and business recommendations.
 
-  
+---
 ## 🧠 Concepts Used
 
 This project applies foundational **Exploratory Data Analysis (EDA)** techniques, including:
@@ -62,7 +65,8 @@ This project applies foundational **Exploratory Data Analysis (EDA)** techniques
 ### 🔹 Customer Profiling
 - Segmentation based on age, income, fitness usage, and miles run
 - Comparative analysis across product types
-
+  
+---
 ## 🔍 Findings & Observations
 Based on the provided dataset:
 1. **Data Quality**
@@ -83,14 +87,14 @@ Based on the provided dataset:
 4. **Outliers**
     - Notable presence of outliers in **Income** and **Miles** variables.
     - These may represent high-income or high-intensity fitness users.
-  
+---
 ## 💡 Key Insights
 - **KP281 buyers** are typically entry-level or casual users with lower usage frequency.
 - **KP481 attracts mid-level runners**, indicating moderate commitment and slightly higher income.
 - **KP781 buyers** appear to be **serious runners** with higher income and higher weekly mileage.
 - Younger customers dominate the treadmill market, suggesting Aerofit should target youth fitness campaigns.
 
-
+---
 ## 🧑‍🤝‍🧑 Detailed Customer Profiles (By Product)
 ### 🔵 KP281 — Entry-Level Users
 
@@ -140,6 +144,7 @@ This group values durability and moderate performance but is still price-sensiti
 #### Interpretation:
 KP781 buyers represent a premium segment — committed, fitness-focused individuals.
 
+---
 ## 📌 Recommendations
 - **Segmented Marketing Campaigns**
     - Advertise KP281 to beginner-level users and budget-conscious buyers.
@@ -156,7 +161,7 @@ KP781 buyers represent a premium segment — committed, fitness-focused individu
 - **Improve Data Collection**
     - Include more lifestyle and behavioral attributes for deeper segmentation.
 
-
+---
 ## 🏁 Conclusion
 
 This analysis provides a clear understanding of Aerofit’s treadmill customer base. By examining demographic and behavioral characteristics, the study highlights distinct customer groups for each product. These insights can support **better product positioning**, **refined marketing strategies**, and **data-driven decision-making** for future product development and targeting.
