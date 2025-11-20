@@ -155,3 +155,8 @@ KP781 buyers represent a premium segment — committed, fitness-focused individu
 
 - **Improve Data Collection**
     - Include more lifestyle and behavioral attributes for deeper segmentation.
+
+
+## 🏁 Conclusion
+
+This analysis provides a clear understanding of Aerofit’s treadmill customer base. By examining demographic and behavioral characteristics, the study highlights distinct customer groups for each product. These insights can support **better product positioning**, **refined marketing strategies**, and **data-driven decision-making** for future product development and targeting.
