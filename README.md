@@ -1,7 +1,8 @@
 # Customer Profiling of Aerofit Trade Mill
 
-## **Business Problem**
-The market research team at AeroFit wants to identify the characteristics of the target audience for each type of treadmill offered by the company, to provide a better recommendation of the treadmills to the new customers. The team decides to investigate whether there are differences across the product with respect to customer characteristics.
+## 🧩 Problem Statement
+
+A fitness equipment manufacturer, wants to analyze customer characteristics to understand **which customer segments prefer which treadmill model**. With three treadmill products (KP281, KP481, KP781), the goal is to identify the demographic and usage-related factors influencing product choice. This will help Aerofit optimize marketing strategies and improve customer targeting.
 
 **Product Portfolio:**
 
@@ -11,9 +12,11 @@ The market research team at AeroFit wants to identify the characteristics of the
 
 - The KP781 treadmill is having advanced features that sell for $2,500
 
-## Objective:
-
-We will use count of users, probabilities, conditional probabilities to evaluate the users and create a customer profile for each product
+## 🎯 Objective
+- To analyze demographic and behavioral attributes of treadmill customers.
+- To identify the characteristics of customers choosing KP281, KP481, and KP781.
+- To extract actionable insights to support Aerofit’s market segmentation strategy.
+- To build clear customer profiles for each treadmill model.
 
 ## Column Profiling:
 
@@ -29,55 +32,126 @@ We will use count of users, probabilities, conditional probabilities to evaluate
 |Fitness |	Self-rated fitness on a 1-to-5 scale, where 1 is the poor shape and 5 is the excellent shape|
 |Miles |	The average number of miles the buyer expects to walk/run each week|
 
-## Concepts Used:
-- Uni-Variate Analysis
-- Bi-Variate Analysis
-- Marginal Probability
-- Conditional Probability
+## 🛠️ Tasks Performed
+- Imported and inspected the dataset for structure, schema, and content.
+- Checked for missing values, duplicate entries, and data consistency.
+- Performed exploratory data analysis (EDA) on numerical and categorical features.
+- Conducted distribution analysis to identify skewness and outliers.
+- Visualized customer attributes using histograms, bar charts, and boxplots.
+- Examined product purchase patterns across different demographic variables.
+- Segmented customers based on Age, Income, Usage frequency, and Miles run.
+- Developed detailed customer profiles for each treadmill model.
+- Interpreted analysis results into actionable insights and business recommendations.
 
-## Task Performed:
-- Loaded the dataset and performed basic EDA to understand its characterstics and structure.
-- Performed data Cleaning like missing value handling, checking for duplicate values, fixing Structural Errors, handling outliers etc.
-- Performed non graphical analysis such as descriptive analysis, frequency distribution, correlation analysis etc.
-- Visualizations :
-    - Uni-Variate Analysis (distribution plots of all the continuous variable(s) barplots/countplots of all the categorical variables)
-    - Bivariate (Relationships between important variables such as gender and product)
-- For continuous variable(s): Distplot, countplot, histogram for univariate analysis
-- For categorical variable(s): Boxplot
-- For correlation: Heatmaps, Pairplots
-- Performed Cross-tabulation of Product against all other features, based on observation created the profile.
+  
+## 🧠 Concepts Used
 
-### **Customer Profile:**
+This project applies foundational **Exploratory Data Analysis (EDA)** techniques, including:
 
-* **Product - KP281:**
+### 🔹 Data Preprocessing
+- Null value check
+- Duplicate value detection
+- Data type validation
 
-  * **Age:** Popular among young between **22 - 33 years** range.
-  * **Gender:** Mostly preferred by **Females**  (**52% of all females** brought this Product whereas 38% of all males brought this product)
-  * **Marital Status:** **Both** alike
-  * **Fitness Level:** People with poor and average fitness (**fitness<=3**) prefer more but overall have a good control across all fitness level.
-  * **Usage Level:** Average Number of **Usage <= 4** per week.
-  * **Income Range:** Low, Medium and High income people (**30000<=income<= 58000**)
-  * **Education:** 14-16 years mostly
-  * **Miles:** popular among people who prefer to run less than 80 miles per week(**running < 80 miles**).
+### 🔹 Univariate & Bivariate Analysis
+- Distribution analysis (histograms, boxplots)
+- Skewness analysis
+- Outlier detection
+- Categorical variable frequency plots
 
-* **Product - KP481:**
+### 🔹 Customer Profiling
+- Segmentation based on age, income, fitness usage, and miles run
+- Comparative analysis across product types
 
-  * **Age:** Popular among young between **24 - 33 years** range
-  * **Gender:** Almost similar popularity distribution in **both** genders.
-  * **Marital Status:** **both** alike
-  * **Fitness Level:**  People with poor and average fitness (**fitness<=3**) prefer using this.
-  * **Usage Level:** Average Number of **Usage <= 3** per week.
-  * **Income Range:** Low, Medium and High income people (**30000<=income<= 58000**)
-  * **Education:** 14-16 years mostly
-  * **Miles:** popular among people who prefer to run less than 120 miles per week(**running < 120 miles**).
+## 🔍 Findings & Observations
+Based on the provided dataset:
+1. **Data Quality**
+    - No missing values were found.
+    - No duplicate entries exist.
+    - Key variables (Age, Usage, Income, Miles) show right-skewed distributions.
 
-* **Product - KP781:**
+2. **Product Distribution**
+    - **KP281** is the **most purchased** treadmill.
+    - **KP781** has the **lowest sales**, indicating it appeals to a niche segment.
+    - Customer purchase patterns suggest varying fitness motivations across models.
 
-  * **Age:** Popular among young between **25 - 30 years** range
-  * **Gender:** Males prefer more than Females
-  * **Marital Status:** **both** alike
-  * **Fitness Level:** People with High fitness level like **fitness==5**
-  * **Usage Level:** Average Number of **Usage >= 4** per week.
-  * **Income Range:** High and Very High income people (**income>60000**)
-  * **Education:** 16-18 years mostly
-  * **Miles:** popular among people who prefer to run more than 120 miles per week(**running > 120 miles**).
+3. **Demographic Insights**
+    - Most users belong to a **younger to mid-age** bracket.
+    - Income distribution indicates that Aerofit attracts a **moderate-income customer base**.
+    - Usage patterns show that customers generally plan to use the treadmill **less than 5 days per week**.
+
+4. **Outliers**
+    - Notable presence of outliers in **Income** and **Miles** variables.
+    - These may represent high-income or high-intensity fitness users.
+  
+## 💡 Key Insights
+- **KP281 buyers** are typically entry-level or casual users with lower usage frequency.
+- **KP481 attracts mid-level runners**, indicating moderate commitment and slightly higher income.
+- **KP781 buyers** appear to be **serious runners** with higher income and higher weekly mileage.
+- Younger customers dominate the treadmill market, suggesting Aerofit should target youth fitness campaigns.
+
+
+## 🧑‍🤝‍🧑 Detailed Customer Profiles (By Product)
+### 🔵 KP281 — Entry-Level Users
+
+#### Profile Summary:
+- Price-conscious buyers
+- Casual exercisers or beginners
+- Prefer affordable, low-maintenance fitness equipment
+
+#### Customer Characteristics:
+- **Age**: Younger demographic (20s–30s)
+- **Income**: Low to moderate
+- **Usage**: 2–4 days/week
+- **Miles**: Lower mileage — mainly light workouts
+
+#### Interpretation:
+KP281 attracts customers who want basic fitness equipment without advanced features.
+
+### 🟢 KP481 — Mid-Tier Users
+
+#### Profile Summary:
+- Moderate fitness commitment
+- Seeking performance + affordability balance
+- Ideal for consistent joggers/runners
+  
+#### Customer Characteristics:
+- **Age**: Mid 30s–40s
+- **Income**: Medium range
+- **Usage**: 3–5 days/week
+- **Miles**: Moderate running distance
+
+#### Interpretation:
+This group values durability and moderate performance but is still price-sensitive.
+
+### 🔴 KP781 — High-End Fitness Enthusiasts
+
+#### Profile Summary:
+- Serious runners or high-performance users
+- Less price-sensitive
+- Prefer advanced features and sturdy equipment
+
+#### Customer Characteristics:
+- **Age**: 30–45
+- **Income**: High-income bracket
+- **Usage**: 5–6 days/week
+- **Miles**: Highest mileage in the dataset
+
+#### Interpretation:
+KP781 buyers represent a premium segment — committed, fitness-focused individuals.
+
+## 📌 Recommendations
+- **Segmented Marketing Campaigns**
+    - Advertise KP281 to beginner-level users and budget-conscious buyers.
+    - Promote KP481 to intermediate runners seeking consistent home workouts.
+    - Position KP781 as a premium, high-performance product for fitness enthusiasts.
+
+- **Income-Based Targeting**
+    - Digital ads can be optimized for different income segments based on product price points.
+
+- **Feature Highlighting**
+    - Highlight durability and performance metrics for KP781.
+    - Emphasize ease of use and affordability for KP281.
+
+- **Improve Data Collection**
+    - Include more lifestyle and behavioral attributes for deeper segmentation.
